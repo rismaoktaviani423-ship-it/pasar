@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Produk Desain Grafis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="login-container">
+    <div class="login-box">
+        <h2>Login Produk Desain Grafis</h2>
+        <input type="password" id="password" placeholder="Masukkan Password">
+        <button onclick="checkPassword()">Login</button>
+        <p id="errorMsg"></p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
